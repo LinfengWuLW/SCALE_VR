@@ -4,7 +4,6 @@ All about SCALE_VR project.
 ![190290681-0346dd9f-f74c-414a-a90d-18af3aa7b75f](https://user-images.githubusercontent.com/54160011/190515089-9f693d30-71bd-4b43-902f-1fecb8284180.png)
 ![190290678-d0ffd79a-2930-4463-9fdc-537fafe658a2](https://user-images.githubusercontent.com/54160011/190515091-45440f1b-ebda-4274-b716-1cd675610a1e.png)
 
-
 # prototype
 
 ![SW-Web-Concept (6)](https://user-images.githubusercontent.com/54160011/190285363-280cd7da-0173-416f-9cb2-bff08172540f.gif)

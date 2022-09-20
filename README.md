@@ -15,5 +15,5 @@ All about SCALE_VR project.
 ![IMG_4752](https://user-images.githubusercontent.com/54160011/191328435-ccdfb22e-7416-42ea-97e6-44950a86d5a3.jpg)
 ![IMG_4784](https://user-images.githubusercontent.com/54160011/191328448-f9e1a4b4-9428-436c-ab90-adc2edaf5533.jpg)
 
-# publication overview
+# Publications overview
 https://github.com/LinfengWuLW/SCALE_VR/blob/main/Publications/Immersive%20virtual%20environment%20for%20scale%20cognition%20and%20learning%20Expert-based%20evaluation%20for%20balancing%20usability%20versus%20cognitive%20theories.pdf

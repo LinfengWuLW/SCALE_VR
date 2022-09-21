@@ -3,7 +3,6 @@ All about SCALE_VR project.
 ![UI2 (1)](https://user-images.githubusercontent.com/54160011/162769103-a6cbc10c-2d26-41f8-bafa-b221d512e08f.png)
 ![190290681-0346dd9f-f74c-414a-a90d-18af3aa7b75f](https://user-images.githubusercontent.com/54160011/190515089-9f693d30-71bd-4b43-902f-1fecb8284180.png)
 ![190290678-d0ffd79a-2930-4463-9fdc-537fafe658a2](https://user-images.githubusercontent.com/54160011/190515091-45440f1b-ebda-4274-b716-1cd675610a1e.png)
-![image](https://user-images.githubusercontent.com/54160011/191384172-2b5f6087-e311-4b60-b482-830fdd9f367d.png)
 
 # prototype
 https://www.youtube.com/watch?v=uD-k2fDC2zE

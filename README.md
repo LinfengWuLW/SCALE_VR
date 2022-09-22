@@ -5,6 +5,8 @@ All about SCALE_VR project. Work in progress.
 ![190290678-d0ffd79a-2930-4463-9fdc-537fafe658a2](https://user-images.githubusercontent.com/54160011/190515091-45440f1b-ebda-4274-b716-1cd675610a1e.png)
 
 # prototype
+![Entities-13](https://user-images.githubusercontent.com/54160011/191632829-2eaf3577-1ef9-400a-9190-a0d24458a88c.jpg)
+
 https://www.youtube.com/watch?v=uD-k2fDC2zE
 
 # CAVE version preview

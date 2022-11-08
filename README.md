@@ -20,4 +20,4 @@ https://www.youtube.com/watch?v=uD-k2fDC2zE
 https://www.youtube.com/watch?v=YnCtVt4Q83U
 
 # Publications overview
-https://github.com/LinfengWuLW/SCALE_VR/blob/main/Publications/Immersive%20virtual%20environment%20for%20scale%20cognition%20and%20learning%20Expert-based%20evaluation%20for%20balancing%20usability%20versus%20cognitive%20theories.pdf
+https://journals.sagepub.com/doi/abs/10.1177/1071181322661094

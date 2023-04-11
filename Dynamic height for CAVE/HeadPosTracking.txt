@@ -1,0 +1,71 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+
+public class HeadPosTracking : MonoBehaviour
+{
+    public GameObject headGameObject;
+    public GameObject navigationPanel;
+    public GameObject standardNotation;
+
+    public bool isHeightSet;
+    public float userEyeHeight;
+    public float userForeheight=0.08f;//average foreheight 8cm , 0.08m
+    public float userHeight;
+
+    public float defaultHeight = 1.7f;
+
+    //get the coefficient in scientific notation
+    public TextMeshProUGUI coeffScienText;
+    //get the coefficient in standard notation
+    public TextMeshProUGUI coeff10digitText;
+    public TextMeshProUGUI coeff01digitText;
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+       
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //if(Input.GetKeyDown(KeyCode.H) && (!isHeightSet))  //allow to set height only once
+        if (Input.GetKeyDown(KeyCode.H))   //allow to set height multiple times
+        {
+            navigationPanel.SetActive(true);
+            standardNotation.SetActive(true);
+
+            userEyeHeight = headGameObject.transform.position.y;
+            userHeight = userEyeHeight + userForeheight;        
+
+            navigationPanel.transform.position= new Vector3(navigationPanel.transform.position.x, userHeight-defaultHeight, navigationPanel.transform.position.z);
+            standardNotation.transform.position = new Vector3(standardNotation.transform.position.x, userHeight-defaultHeight, standardNotation.transform.position.z);
+
+            coeffScienText.text = "<font-weight=500>" + userHeight.ToString("0.0") + "</font-weight>";
+            coeff10digitText.text= "<font-weight=800>" + userHeight.ToString("0.0")[0] + "</font-weight>";
+            coeff01digitText.text = "<font-weight=800>" + userHeight.ToString("0.0")[2] + "</font-weight>";
+
+            isHeightSet = true;
+        }
+
+
+        //track the position of the user to show the navigation panel
+        //if the user is located at the left part of the CAVE, show the navigation panel
+        
+        if (headGameObject.transform.position.x <= 0.5f && isHeightSet)
+        {
+            navigationPanel.SetActive(true);
+            standardNotation.SetActive(true);
+        }//otherwise, hide the navigation panel
+        else
+        {
+            navigationPanel.SetActive(false);
+            standardNotation.SetActive(false);
+        }
+        
+		
+    }
+}
